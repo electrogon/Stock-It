@@ -1,0 +1,124 @@
+﻿body
+{
+background-image: url("bg.png");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#logo {
+	width: 320px;
+	height: 300px;
+	position: relative;
+	top: 50px;
+
+	display: block;
+margin-left: auto;
+margin-right: auto;
+left: 20px;
+}
+#header {
+	text-align: center;
+}
+#title {
+	position: relative;
+	top: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Segoe UI";
+	color: #008000;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+#buttons {
+	text-align: center;
+}
+.startButtons {
+	position: relative;
+	top: 50px;
+	background-color: green;
+	border: none;
+	padding: 25px 100px;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 4px;
+
+
+	display: block;
+	margin: auto;
+	outline: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+	.startButtons:hover {
+		background-color: #009933;
+		cursor: pointer;
+		font-size: 31px;
+	}
+	.startButtons:active {
+		background-color: #99ccff;
+	}
+
+.stocksSample {
+	text-align: center;
+	background-color: saddlebrown;
+	border: none;
+	font-size: 30px;
+	font-family: 'Segoe UI';
+	padding: 50px 60px;
+	border-radius: 6px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+	outline: none;
+	cursor: pointer;
+	max-width: 300px;
+	min-width: 300px;
+
+}
+
+	.stocksSample:hover {
+		background-color: sandybrown;
+	}
+	.stocksSample:active {
+		background-color: rosybrown;
+	}
+#date {
+	text-align: center;
+}
+#myStocks {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 15px;
+	margin-right: 15px;
+
+	border: none;
+	background-color: darkolivegreen;
+	font-size: 30px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	
+}
+#myStocks:hover {
+	background-color: green;
+	
+}
+#myStocks:active {
+	background-color: darkseagreen;	
+}
